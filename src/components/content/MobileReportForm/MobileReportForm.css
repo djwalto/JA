@@ -1,0 +1,45 @@
+.formPanel {
+    width: 400px !important;
+    height: 240px !important;
+    background-color: white !important;
+    font-weight: lighter !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+    margin: 20px auto 0;
+    box-shadow: 0px 8px 8px rgba(0,0,0,0.2);
+}
+.mobileReportFormButton {
+    background-color: #4ac05d !important;
+    color: white !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    display: column !important;
+    font-weight: lighter !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+    width: 100px !important;
+}
+
+
+
+.ClassDetailsText {
+    font-weight: bold !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+}
+
+.TextField {
+    margin-bottom: 5px;;
+}
+
+.UploadPicturesText {
+    font-weight: bold !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+    color: black;
+    background-color: white;
+}
+
+.yes {
+    color: rgb(207, 206, 206);
+}

@@ -1,0 +1,67 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  background-color: #fff;
+}
+/* .nav-title {
+  cursor: pointer;
+    font-size: 24px;
+    font-weight: 900;
+    display: inline-block;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-transform: none;
+} */
+.nav {
+  margin: 0;
+  background-color: #f6f7f8;
+  overflow: hidden;
+  display: inline;
+}
+/* 
+.nav-link {
+  float: right;
+  margin-right: 30px;
+  margin-top: -80px;
+  color: #61b42a;
+  background-color: #fdfdfd;
+  text-align: center;
+  padding: 24px 10px;
+  text-decoration: none;
+  font-size: 20px;
+
+   these last two make the logout button in
+  the nav bar look like another link 
+ 
+  cursor: pointer;
+  outline:0;
+  flex: 1;
+  display: right;
+  justify-content: flex-end;
+} */
+.nav-link:hover {
+  color: #e7a011;
+}
+.nav-right {
+  float: right;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .maillink {
+text-decoration-line: none;
+
+} */
+
+.JALogo {
+  background-color:white;
+}

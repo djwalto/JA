@@ -1,0 +1,117 @@
+
+.loginPaper {
+    background-color: white !important;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 2.0);
+    border-radius: 15px;
+    width: 100% !important;
+    height: 100% !important;
+   
+    
+    /* margin-top: 5%; */
+    /* margin-left: 35% !important; */
+    font-weight: lighter !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+}
+
+.loginAvatar {
+    margin-top: -50px;
+    margin-bottom: 5px;
+}
+
+.loginForm {
+    padding: 80px;
+    flex: 1;
+    justify-content: space-between;
+    width: 100%; 
+   margin-top: -20%;
+    /* margin-top: -25%; */
+    /* margin-bottom: -50px !important; */
+    font-weight: lighter !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+}
+
+.loginDiv {
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
+    background-image: url(https://greaterkansascity.ja.org/dA/846193d343/banner/inthenewsbackground.png/1200w/jpeg/80);
+    background-size: cover;
+    background-position: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.registerButton {
+    margin-top: 10px !important;
+    background-color: #008751 !important;
+    font-weight: bolder !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+
+}
+
+.loginButton {
+    margin-bottom: -10px !important;
+    background-color: #008751 !important;
+    font-weight: bolder !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: none; 
+    text-underline-position: none !important;
+}
+
+.loginCard {
+    width: 100% !important;
+    height: 100%;
+    justify-content: space-around !important;
+    display: flex;
+    flex-direction: column;
+    background-position: left;
+    background-color: transparent !important;
+}
+
+.loginArrow {
+    margin-top: 20px !important;
+    margin-right: 60%;
+    transform: scale(1.8);
+    color: white;
+}
+
+.loginHome {
+    color: black;
+    transform: scale(2.0);
+}
+
+.loginTitle {
+    color: black;
+}
+
+.loginLink {
+    text-decoration: none;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

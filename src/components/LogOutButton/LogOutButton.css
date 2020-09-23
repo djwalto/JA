@@ -1,0 +1,23 @@
+.nav-link {
+float: right;
+background-color: transparent;
+margin-right: 30px;
+margin-top: -50px;
+color: #008751;
+text-align: center;
+padding: 0px 5px 0px 0px;
+text-decoration: none;
+font-size: 20px;
+border: none;
+font-weight: lighter !important; 
+font-family: 'Montserrat', sans-serif !important;
+text-transform: none; 
+/* these last two make the logout button in
+the nav bar look like another link */
+
+cursor: pointer;
+
+flex: 1;
+display: right;
+justify-content: flex-end;
+}
