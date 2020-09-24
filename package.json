@@ -86,11 +86,11 @@
     "xoauth2": "^1.2.0"
   },
   "scripts": {
-    "start": "npm run tsc && node dist/server.js",
+    "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts && npm run tsc && node dist/server.js",
     "client": "react-scripts start",
     "server": "nodemon -e ts --ignore './dist' -x npm run server:ts",
     "server:ts": "tsc -p tsconfig.node.json && node dist/server.js",
-    "build": "react-scripts build",
+    "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "tsc": "tsc -p tsconfig.node.json",
     "eject": "react-scripts eject"
