@@ -82,8 +82,7 @@
     "style-loader": "^1.2.1",
     "sweetalert": "^2.1.2",
     "sweetalert-react": "^0.4.11",
-    "typescript": "^3.7.5",
-    "xoauth2": "^1.2.0"
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts && npm run tsc && node dist/server.js",
